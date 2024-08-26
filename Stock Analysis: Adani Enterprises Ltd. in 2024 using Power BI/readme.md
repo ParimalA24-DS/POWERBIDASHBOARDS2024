@@ -1,7 +1,7 @@
 # Stock Analysis: Adani Enterprises Ltd. (2024) Using Power BI
 
 ## 📈 Dashboard Overview
-![Stock Analysis Dashboard](https://github.com/ParimalA24-DS/POWERBIDASHBOARDS2024/blob/main/Stock_Analysis/Adani_Enterprises_Dashboard.PNG)
+![Stock Analysis Dashboard](https://github.com/ParimalA24-DS/POWERBIDASHBOARDS2024/blob/main/Stock%20Analysis%3A%20Adani%20Enterprises%20Ltd.%20in%202024%20using%20Power%20BI/stockanalutcdb3imp.PNG)
 
 ## 📊 Problem Statement
 In 2024, Adani Enterprises faces fluctuating stock performance, impacting investment decisions. This project aims to analyze historical stock data using Power BI to uncover key performance indicators (KPIs) such as monthly price changes, trading volume trends, and volatility patterns. Data was downloaded from 25-07-2023 to 25-08-2024.
