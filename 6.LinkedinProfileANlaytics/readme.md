@@ -1,4 +1,5 @@
 # LinkedIn Profile Analytics Dashboard
+![LinkedIn Profile Dashboard](https://github.com/ParimalA24-DS/POWERBIDASHBOARDS2024/blob/main/6.LinkedinProfileANlaytics/LinkedinDAAug24imp.PNG)
 
 ## Overview
 This Power BI project delivers a comprehensive analysis of LinkedIn profile data, providing actionable insights to enhance personal and professional networking. The dashboard is designed to monitor engagement metrics, track connection growth, and identify key influencers within your network.
@@ -27,13 +28,18 @@ As a data professional, the challenge is to extract, clean, and analyze LinkedIn
 ## Data Preparation
 - **Data Cleaning**: Removing duplicates, handling missing values, and ensuring data consistency.
 - **Data Transformation**: Filtering, merging tables, and creating new columns or measures for analysis.
+### Data Modeling Overview
+![Data Modeling Overview](https://github.com/ParimalA24-DS/POWERBIDASHBOARDS2024/blob/main/6.LinkedinProfileANlaytics/LINKEDIN_DATAMODELING.PNG)
 
 ## Key Measures and DAX Formulas
 - **Calendar Table**:
-  Contact me for this all DAX functions
-      "Year Month", FORMAT ( [Date], "mmm yy" ), 
-      "Week Number", WEEKNUM ( [Date] ), 
-      "Week Number and Year", "W" & WEEKNUM ( [Date] ) & " " & YEAR ( [Date] ), 
-      "WeekYearNumber", YEAR ( [Date] ) & 100 + WEEKNUM ( [Date] ), 
-      "Is Working Day", NOT WEEKDAY([Date]) IN {1,7} )
+  Contact me for all DAX functions
+  ```dax
+- Messages Sent = CALCULATE(COUNTA(messages[FROM]), FILTER(messages,messages[FROM] = "PARIMAL AUTADE"))
 
+- Messages Received = CALCULATE(COUNT(messages[FROM]), NOT(messages[FROM] IN {"PARIMAL AUTADE"}))
+  ---
+## Contact Information
+For dataset and detailed DAX expressions, feel free to reach out to me:
+- **Email**: parimalautade23@gmail.com
+- **LinkedIn**: [Parimal Autade](https://www.linkedin.com/in/parimalautade/)
